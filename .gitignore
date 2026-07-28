@@ -1,0 +1,14 @@
+# Firebase
+.firebase/
+firebase-debug.log
+.firebaserc
+
+# Systémové soubory
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editory
+.vscode/
+.idea/
+*.swp
