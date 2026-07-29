@@ -20,6 +20,7 @@ caste-dotazy.html          FAQ, 19 otázek
 
 style.css                  jediný stylopis, mobile-first, breakpoint 900 px
 script.js                  mobilní menu, hlavička, kotvy, videa, formulář
+cookie-consent.js          souhlas s cookies — teprve po něm se načte GA4
 images/                    43 souborů, 4,9 MB
 
 firebase.json              hosting: cleanUrls, cache hlavičky, ignore
@@ -34,6 +35,8 @@ robots.txt, sitemap.xml    pro vyhledávače
 | Repozitář | GitHub `fangorzjeseniku/yesend-web` | veřejný |
 | Doména | `yesendklub.cz`, registrátor VEDOS | bez hostingu, jen doména + DNS |
 | Formulář | Web3Forms, free plán 250 zpráv/měsíc | access key je v `script.js` (je veřejný záměrně) |
+| Analytika | Google Analytics 4, property `yesend-web` | measurement ID `G-2XNE1XJPR0`, načte se jen po souhlasu s cookies (viz níže) |
+| Vyhledávače | Google Search Console, doména `yesendklub.cz` | ověřeno přes DNS TXT, `sitemap.xml` odeslaný |
 
 **Dvě e-mailové adresy, každá schválně jinam:**
 
@@ -176,6 +179,20 @@ a rozhodil sloupce, je video + popisek obalené v `.video-block`.
 a `mainEntity` v JSON-LD tamtéž. **Když měníš otázku, změň ji na obou místech** —
 jinak se schéma rozejde s obsahem a Google ho vyhodnotí jako neplatné.
 
+**GA4 se nenačte, dokud návštěvník neodsouhlasí cookies.** Řeší to
+`cookie-consent.js` — dokud nepadne "Přijmout", `gtag` neexistuje a žádný
+požadavek na Google servery neodejde (GDPR/ePrivacy). Když testuješ návštěvnost
+v „Přehledu v reálném čase", nezapomeň na vlastním prohlížeči banner odkliknout,
+jinak se tvoje návštěva nezapočítá. Volba se pamatuje v `localStorage`
+(`yesend_cookie_consent`), znovu otevřít jde přes odkaz „Nastavení cookies"
+v patičce.
+
+**Interní filtr (vyloučení vlastní návštěvnosti) v GA4 se záměrně nenastavuje.**
+IP adresa dostupná při zakládání patřila firemní síti sdílené s cca 50 lidmi —
+nastavení by vyřadilo z dat i jejich reálné návštěvy, ne jen Jakubovy. Filtr
+"Internal Traffic" v GA4 existuje jako šablona, ale bez definované IP je
+neškodný (nic nefiltruje).
+
 ---
 
 ## Obrázky
@@ -250,6 +267,12 @@ Součástí je honeypot (skryté pole `botcheck` přes `.sr-only`, ne `hidden` �
 
 Kdyby klíč někdy vypršel, kód spadne zpět na `mailto:`, aby stránka nezůstala
 bez funkce.
+
+Úspěšné odeslání zároveň pošle do GA4 doporučenou událost `generate_lead`
+(v `showDone()`) — jen pokud návštěvník odsouhlasil cookies. V GA4 je potřeba
+ji jednou ručně označit jako klíčovou událost (Admin → Události). Skutečný počet
+přihlášek = e-maily ve schránce, GA4 číslo bude nižší (nepočítá ty, kdo cookies
+odmítli).
 
 ---
 
