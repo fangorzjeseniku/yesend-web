@@ -873,7 +873,10 @@ body.menu-open { overflow: hidden; }
   max-width: var(--measure);
   margin-inline: auto;
 }
-.mana img { width: 56px; height: 56px; }
+/* Fluidní velikost — 5 ikon + mezery se na 360 px se šířkou 56 px
+   nevejdou na řádek a zelená mana přepadne dolů. Zmenšeno na mobilu,
+   od cca 560 px šířky (10vw) opět naroste na původních 56 px. */
+.mana img { width: clamp(44px, 10vw, 56px); height: clamp(44px, 10vw, 56px); }
 
 /* -------------------------------------------------------------
    18. ÚVODNÍ NADPISY PODSTRÁNEK (s ikonou)
