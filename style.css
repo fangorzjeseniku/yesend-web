@@ -1194,3 +1194,69 @@ body.menu-open { overflow: hidden; }
 @media (min-width: 600px) and (max-width: 899.98px) {
   .mtg-cards { width: 280px; }
 }
+
+/* -------------------------------------------------------------
+   COOKIE BANNER — souhlas s Google Analytics (viz cookie-consent.js)
+   ------------------------------------------------------------- */
+.cookie-banner {
+  position: fixed;
+  left: 16px;
+  right: 16px;
+  bottom: 16px;
+  z-index: 500;
+  max-width: 560px;
+  margin: 0 auto;
+  background: var(--bg-dark);
+  border: 1px solid var(--hairline-strong);
+  border-radius: var(--radius-card);
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.4);
+  padding: 20px;
+}
+.cookie-banner__text {
+  color: var(--text-light);
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0 0 16px;
+}
+.cookie-banner__actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.cookie-banner__btn {
+  font-family: var(--font-head);
+  font-weight: 500;
+  font-size: 15px;
+  padding: 10px 20px;
+  border-radius: var(--radius-pill);
+  cursor: pointer;
+  border: 0;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+.cookie-banner__btn--accent {
+  background: var(--accent);
+  color: var(--white);
+}
+.cookie-banner__btn--accent:hover,
+.cookie-banner__btn--accent:focus-visible { background: #c94a05; }
+.cookie-banner__btn--ghost {
+  background: transparent;
+  color: var(--text-light);
+  border: 1px solid var(--hairline-strong);
+}
+.cookie-banner__btn--ghost:hover,
+.cookie-banner__btn--ghost:focus-visible { border-color: var(--text-light); }
+.cookie-banner__btn:active { transform: translateY(1px); }
+
+.footer__cookie-link {
+  background: none;
+  border: 0;
+  padding: 0;
+  color: var(--muted);
+  font-family: var(--font-body);
+  font-size: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.footer__cookie-link:hover,
+.footer__cookie-link:focus-visible { color: var(--text-light); }
