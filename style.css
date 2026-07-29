@@ -868,15 +868,16 @@ body.menu-open { overflow: hidden; }
 .mana {
   display: flex;
   justify-content: center;
-  gap: clamp(16px, 3vw, 28px);
+  gap: clamp(8px, 2.2vw, 28px);
   flex-wrap: wrap;
   max-width: var(--measure);
   margin-inline: auto;
 }
-/* Fluidní velikost — 5 ikon + mezery se na 360 px se šířkou 56 px
-   nevejdou na řádek a zelená mana přepadne dolů. Zmenšeno na mobilu,
-   od cca 560 px šířky (10vw) opět naroste na původních 56 px. */
-.mana img { width: clamp(44px, 10vw, 56px); height: clamp(44px, 10vw, 56px); }
+/* Fluidní velikost — 5 ikon + mezery se na užších mobilech nevejdou
+   na řádek při 56px a zelená mana přepadne dolů. Zmenšeno s větší
+   rezervou (i mezera je užší), od cca 620 px šířky naroste zpět
+   na původních 56 px. */
+.mana img { width: clamp(36px, 9vw, 56px); height: clamp(36px, 9vw, 56px); }
 
 /* -------------------------------------------------------------
    18. ÚVODNÍ NADPISY PODSTRÁNEK (s ikonou)
