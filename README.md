@@ -33,8 +33,8 @@ robots.txt, sitemap.xml    pro vyhledávače
 |---|---|---|
 | Hosting | Firebase, projekt `yesend-web` | plán **Spark** (zdarma), lokace Czechia, Google Analytics zapnuté |
 | Repozitář | GitHub `fangorzjeseniku/yesend-web` | veřejný |
-| Doména | `yesendklub.cz`, registrátor VEDOS | bez hostingu, jen doména + DNS |
-| Formulář | Web3Forms, free plán 250 zpráv/měsíc | access key je v `script.js` (je veřejný záměrně) |
+| Doména | `yesendklub.cz`, registrátor VEDOS | bez hostingu, jen doména + DNS. **Jediný placený náklad projektu — cca 190 Kč/rok** |
+| Formulář | Web3Forms, free plán | **zdarma**; „250 zpráv/měsíc“ je limit odeslaných formulářů, ne cena. Access key je v `script.js` (je veřejný záměrně) |
 | Analytika | Google Analytics 4, property `yesend-web` | measurement ID `G-2XNE1XJPR0`, načte se jen po souhlasu s cookies (viz níže) |
 | Vyhledávače | Google Search Console, doména `yesendklub.cz` | ověřeno přes DNS TXT, `sitemap.xml` odeslaný |
 
@@ -259,7 +259,8 @@ Statický web nemá čím poslat e-mail, řeší to **Web3Forms**. Access key je
 v `script.js` v konstantě `WEB3FORMS_KEY` (je veřejný, patří do klientského
 kódu — nedá se s ním nic přečíst, jen odeslat).
 
-Free plán: 250 zpráv/měsíc, přihlášky chodí na `fangorzjeseniku@gmail.com`.
+Free plán je **bez poplatku**, strop je 250 odeslaných zpráv za měsíc. Přihlášky
+chodí na `fangorzjeseniku@gmail.com`.
 
 Součástí je honeypot (skryté pole `botcheck` přes `.sr-only`, ne `hidden` —
 část botů skrytá pole přeskakuje) a chybová hláška `#form-error` pro případ,

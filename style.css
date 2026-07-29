@@ -1248,7 +1248,12 @@ body.menu-open { overflow: hidden; }
 .cookie-banner__btn--ghost:focus-visible { border-color: var(--text-light); }
 .cookie-banner__btn:active { transform: translateY(1px); }
 
+/* Blokový prvek → vždy na samostatném řádku pod copyrightem,
+   na mobilu i na desktopu. Bez toho se na desktopu vejde na řádek
+   s copyrightem a rozvržení se mezi šířkami rozchází. */
 .footer__cookie-link {
+  display: block;
+  margin: 8px auto 0;
   background: none;
   border: 0;
   padding: 0;
