@@ -183,6 +183,13 @@
       done.setAttribute('tabindex', '-1');
       done.focus(); /* čtečka obrazovky oznámí potvrzení */
     }
+
+    /* GA4 — doporučená událost "generate_lead" pro odeslaný formulář.
+       Volá se, jen když návštěvník souhlasil s cookies (jinak gtag
+       vůbec neexistuje) — viz cookie-consent.js. */
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', 'generate_lead', { form_name: 'chci_se_pridat' });
+    }
   }
 
   if (form) {
