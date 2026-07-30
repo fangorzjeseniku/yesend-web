@@ -868,16 +868,17 @@ body.menu-open { overflow: hidden; }
 .mana {
   display: flex;
   justify-content: center;
-  gap: clamp(8px, 2.2vw, 28px);
+  gap: clamp(10px, 3vw, 28px);
   flex-wrap: wrap;
   max-width: var(--measure);
   margin-inline: auto;
 }
 /* Fluidní velikost — 5 ikon + mezery se na užších mobilech nevejdou
-   na řádek při 56px a zelená mana přepadne dolů. Zmenšeno s větší
-   rezervou (i mezera je užší), od cca 620 px šířky naroste zpět
-   na původních 56 px. */
-.mana img { width: clamp(36px, 9vw, 56px); height: clamp(36px, 9vw, 56px); }
+   na řádek při 56px a zelená mana přepadne dolů. Rychlejší růst (13vw)
+   než dřív — na běžných telefonech (390-430 px) vyjde cca 50-56 px,
+   na 360 px zůstane s rezervou kolem 47 px. Od cca 430 px šířky
+   dosáhne stropu 56 px (původní velikost). */
+.mana img { width: clamp(40px, 13vw, 56px); height: clamp(40px, 13vw, 56px); }
 
 /* -------------------------------------------------------------
    18. ÚVODNÍ NADPISY PODSTRÁNEK (s ikonou)
