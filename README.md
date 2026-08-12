@@ -58,7 +58,10 @@ Slugy se změnily: starý web měl pro Warhammer `w40k`, nový má
 šerm je hlavní aktivita, LARP doplňková.
 
 Odkazy na partnery jsou aktualizované na jejich nové weby
-(`emkojesenik.cz`, `cernyrytir.cz`) — starší podklady uváděly jiné adresy.
+(`emkojesenik.cz`) — starší podklady uváděly jiné adresy.
+
+Mapa herních skupin (`bit.ly/mapaskupin`) na stránce MTG je nezávislá Google
+My Maps, ne obsah žádného partnera — proto zůstává i po změnách v Partnerech.
 
 ## Lokální náhled
 
@@ -243,7 +246,7 @@ letterbox — YouTube v 16:9 nabízí jen 320 a 1280 px, nic mezi.
 Cizí loga se smí použít **pouze jako prokliková loga v sekci Partneři**. Nikdy
 jako vlastní branding webu, nikdy v hlavičce, nikdy jako dekorace.
 
-V Partnerech jsou: eMKO, Čajbar Pangea, Gymnázium Jeseník, Černý Rytíř, Magic:
+V Partnerech jsou: eMKO, Čajbar Pangea, Gymnázium Jeseník, Magic:
 The Gathering, Wizards of the Coast, Dungeons & Dragons. Pod nimi je doložka
 o ochranných známkách Wizards of the Coast, která pokrývá všechna použitá herní
 loga.
