@@ -15,7 +15,7 @@ mtg-jesenik.html           Magic: The Gathering
 dnd-jesenik.html           Dungeons & Dragons
 warhammer-jesenik.html     Warhammer 40k Kill Team
 serm-jesenik.html          LARP a šerm (HEMA – dlouhý meč)
-caste-dotazy.html          FAQ, 19 otázek
+caste-dotazy.html          FAQ, 22 otázek
 404.html                   chybová stránka
 
 style.css                  jediný stylopis, mobile-first, breakpoint 900 px
@@ -243,16 +243,46 @@ letterbox — YouTube v 16:9 nabízí jen 320 a 1280 px, nic mezi.
 
 ## Licence a ochranné známky
 
-Cizí loga se smí použít **pouze jako prokliková loga v sekci Partneři**. Nikdy
-jako vlastní branding webu, nikdy v hlavičce, nikdy jako dekorace.
+**Loga vydavatelů a herních brandů už nejsou v Partnerech** (8/2026). Dřív tam
+byla jako prokliková loga (MTG, Wizards of the Coast, D&D) — odstraněna, protože
+v sekci „Partneři" vypadala jako partnerství, které neexistuje. Soubory
+`logo-mtg.png`, `logo-wotc.png`, `logo-dnd.png` smazány.
 
-V Partnerech jsou: eMKO, Čajbar Pangea, Gymnázium Jeseník, Magic:
-The Gathering, Wizards of the Coast, Dungeons & Dragons. Pod nimi je doložka
-o ochranných známkách Wizards of the Coast, která pokrývá všechna použitá herní
-loga.
+**Pozor — herní symboly na webu pořád jsou**, jen jako tematická dekorace na
+příslušné podstránce, ne jako loga v Partnerech:
 
-**Logo Games Workshop se nepoužívá**, proto se pro ně doložka neuvádí. Kdyby se
-někdy přidalo, musí přibýt i věta o ochranných známkách Games Workshop Limited.
+| Soubor | Kde | Co to je |
+|---|---|---|
+| `mana-w/u/b/r/g.png` | MTG | pět symbolů many — ochranné známky WotC |
+| `dnd-50.png` | D&D | **oficiální logo 50. výročí D&D** — ochranná známka WotC |
+| `aquila.webp` | Warhammer | Aquila, symbol Imperia — ochranná známka Games Workshop |
+| `d20.png`, `mec.png` | D&D, šerm | obecné motivy (kostka, meč), ne cizí známky |
+
+Právě proto má každá z těch tří stránek vlastní doložku (viz níže) — nejde jen
+o popisné použití názvu, ale o použití známkované grafiky.
+
+**V Partnerech jsou jen skuteční partneři:** eMKO, Čajbar Pangea,
+Gymnázium Jeseník.
+
+### Doložky o ochranných známkách — rozdělené po stránkách
+
+Každá stránka nese jen tu doložku, jejíž známky reálně používá. Jedna společná
+doložka na úvodní stránce zanikla.
+
+| Stránka | Doložka |
+|---|---|
+| `mtg-jesenik.html` | Wizards of the Coast — Magic the Gathering, MTG, planeswalker symbol, 5 mana and tap symbol |
+| `dnd-jesenik.html` | Wizards of the Coast — Dungeons & Dragons, D&D, dragon ampersand |
+| `warhammer-jesenik.html` | Games Workshop Limited — Warhammer, Warhammer 40,000, Kill Team (kvůli `aquila.webp` i logům/symbolům) |
+
+Každá obsahuje i **větu o nespojení** („Yes& is not affiliated with, endorsed or
+sponsored by…"). Umístění: na konci `<main>`, za fotopásem, nad patičkou.
+Fotopás má nulový padding, proto má obalová sekce inline
+`padding-top: var(--space-default)`.
+
+**Nová stránka s cizí ochrannou známkou → přidej jí vlastní doložku.**
+`index.html` a `caste-dotazy.html` doložku záměrně nemají — herní názvy tam
+figurují jen popisně v textu.
 
 U cizích artworků se vždy uvádí credit `Art by [Jméno autora]`.
 
