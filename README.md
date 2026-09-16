@@ -331,10 +331,25 @@ odmítli).
   Výjimka: vysvětlování pravidel (učit, jak se hraje, je v pořádku).
   *Odstraněno 9/2026 z MTG a D&D stránky, kde to bylo ve formě výčtu dovedností.*
 - **Test dveří** (manuál §8a): vede tenhle obsah k dalšímu obrazu, nebo ke
-  dveřím? Web nesmí posílat lidi k obrazovce místo ke stolu. *Proto z MTG
-  stránky zmizel citát odkazující na MTG Arenu (9/2026) a D&D stránka už
-  nenabízí online sezení jako rovnocennou variantu — hybridní hraní je fakt,
-  ale offline stůl je to, co klub nabízí navíc oproti aplikaci.*
+  dveřím? Web nesmí posílat lidi jinam než ke svému stolu. Co kvůli tomu
+  zmizelo (9/2026):
+
+| Co | Kde | Proč |
+|---|---|---|
+| Citát s odkazem na **MTG Arenu** | MTG | na otázku „nemáš s kým hrát?" je odpovědí klubu stůl, ne obrazovka |
+| Sekce **„MTG kluby v jiných městech"** (9 odkazů) | MTG | 8 z 9 byly hledače cizích klubů a heren. Kdo hledá Magic v okolí, má skončit u nás — FAQ schválně cílí na Zlaté Hory, Javorník, Vidnavu a Šumperk |
+| Odstavec o **online hraní** + „Jeseník or remote." | D&D | hybridní hraní je fakt, ale web ho nenabízí jako rovnocennou variantu. Kdo chce hrát na dálku, dozví se to na Discordu |
+| **„And they shall know no fear."** | Warhammer | cizí citát na prominentním místě nahrazen vlastním sdělením (pilíř Proces) |
+| Řádek **„D&D se využívá ve školství a terapii"** (7 odkazů) | D&D | jazyk výkonu (§8) doložený odkazy — hra jako nástroj k něčemu jinému. Navíc argument pro rodiče, ne pro cílovku 15–30 |
+| Blok **„Vyzbroj se"** (5 obchodů s vybavením) | Šerm | vlastní výzbroj řeší až ten, kdo zůstane (§17), a na první tréninky meč půjčujeme. „Kde koupit meč" má zodpovědět člověk u tréninku nebo na Discordu, ne seznam odkazů |
+
+**Co naopak zůstává a proč:** „Doporučené LARPy" na stránce šermu — manuál §4
+definuje šerm jako *přípravu na LARPy*, takže to není konkurence, ale cíl, kam
+klub směřuje. Jezdí se na ně společně, obsluhuje to pilíře Instinkty a Komunita.
+Stejná logika neplatila u „MTG klubů v jiných městech", které klub nahrazovaly.
+
+  **Nevracet zpět bez rozmyslu** — u každé z nich šlo o vědomé rozhodnutí, ne
+  o opomenutí.
 - **U výzvy uveď, co přijde potom** (manuál §13). Samotné „napiš nám" je
   abstraktní. Doplň termín, délku nebo počet lidí: „…sezení bývá jednou za dva
   měsíce a trvá tři až čtyři hodiny."
