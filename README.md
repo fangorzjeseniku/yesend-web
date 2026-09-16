@@ -324,6 +324,31 @@ odmítli).
   Web to nesmí nikde slibovat jinak. Pozvánku posílá člověk, ne robot; je to
   vědomé rozhodnutí kvůli bezpečnosti komunity.
 - Cílová skupina je **15–30 let**. Tykání, žádný korporátní jazyk.
+- **Zákaz jazyka výkonu** (brand manuál §8, 9/2026). Klub o sobě nikdy nemluví
+  slovy „rozvíjí kreativitu", „zlepšíš se", „posuneš se", „využij čas naplno".
+  Cílovka je výkonem přesycená ze školy a práce — klub má být to druhé. Hraje
+  se, protože to stojí za to samo o sobě, ne protože to k něčemu vede.
+  Výjimka: vysvětlování pravidel (učit, jak se hraje, je v pořádku).
+  *Odstraněno 9/2026 z MTG a D&D stránky, kde to bylo ve formě výčtu dovedností.*
+- **Test dveří** (manuál §8a): vede tenhle obsah k dalšímu obrazu, nebo ke
+  dveřím? Web nesmí posílat lidi k obrazovce místo ke stolu. *Proto z MTG
+  stránky zmizel citát odkazující na MTG Arenu (9/2026) a D&D stránka už
+  nenabízí online sezení jako rovnocennou variantu — hybridní hraní je fakt,
+  ale offline stůl je to, co klub nabízí navíc oproti aplikaci.*
+- **U výzvy uveď, co přijde potom** (manuál §13). Samotné „napiš nám" je
+  abstraktní. Doplň termín, délku nebo počet lidí: „…sezení bývá jednou za dva
+  měsíce a trvá tři až čtyři hodiny."
+
+### Fakta o rytmu hraní — ověřeno 16. 9. 2026
+
+| Co | Jak často |
+|---|---|
+| MTG běžné hraní | **nemá pevný rytmus** — domlouvá se na Discordu. Netvrdit „každý týden" |
+| Booster Draft | cca 1× za 3 měsíce, víkend **9:00–15:00**, běžně 12 lidí |
+| D&D | cca 1× za 2 měsíce, sezení 3–4 hodiny |
+
+Pozor: brand manuál §4 uvádí u MTG „každý týden" — to je **cíl, ne současný
+stav**. Web drží realitu.
 
 Cíle klubu, které se můžou promítnout do dalších úprav webu: zdvojnásobit počet
 aktivních členů, zvýšit zastoupení žen, rozšířit řady Dungeon Masterů.
