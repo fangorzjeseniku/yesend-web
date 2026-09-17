@@ -350,6 +350,17 @@ Stejná logika neplatila u „MTG klubů v jiných městech", které klub nahraz
 
   **Nevracet zpět bez rozmyslu** — u každé z nich šlo o vědomé rozhodnutí, ne
   o opomenutí.
+- **Hero říká totéž co plakát: „Probuď se do jiné reality."** Je to narážka na
+  Matrix — běžná realita je ta iluze, ze které se probouzíš. Proto se nesmí
+  přepsat na „vystup z reality": to znamená únik, tedy opak, a pak si to
+  odporuje s větou „Není to únik. Je to návrat." Sloveso nese celý koncept.
+- **Homepage láká, podstránka vysvětluje.** Když se na obou objeví totéž,
+  ubírá to hodnotu proklikům. Příklad: homepage slibuje „s malováním ti
+  poradíme", detail „stačí jedna figurka a pár barev" zůstává na stránce
+  Warhammeru.
+- **Edici D&D piš jako „D&D 2024", nikdy „5.5e"** (manuál §4, 9/2026).
+  „5.5" je hráčský slang — nováček mu nerozumí a navíc to zní jako polovičatá
+  verze. Opraveno na 5 místech (index, FAQ ×2, D&D stránka ×2).
 - **U výzvy uveď, co přijde potom** (manuál §13). Samotné „napiš nám" je
   abstraktní. Doplň termín, délku nebo počet lidí: „…sezení bývá jednou za dva
   měsíce a trvá tři až čtyři hodiny."
