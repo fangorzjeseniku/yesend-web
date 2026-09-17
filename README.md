@@ -350,6 +350,16 @@ Stejná logika neplatila u „MTG klubů v jiných městech", které klub nahraz
 
   **Nevracet zpět bez rozmyslu** — u každé z nich šlo o vědomé rozhodnutí, ne
   o opomenutí.
+- **Sekce „O nás" vypráví příběh, protože ho nadpis slibuje.** Titulek
+  *„aneb Mág, Mistr a Alchymista vejdou do baru, …"* má tři tečky — je to
+  rozehrávka, na kterou musí přijít pointa. Do 9/2026 tam místo ní byly dvě
+  obecné věty („Jsme parta lidí, co miluje fantasy"). Nahrazeno zkráceným
+  Jakubovým článkem: návrat do Jeseníku → Pangea → dva kluci s balíčky Magicu
+  → 2021 → Magic, D&D, Warhammer.
+  **Psáno v ich-formě** — zakladatelský příběh vypráví zakladatel, navazuje
+  na podpis u fotky v další sekci. Zbytek webu mluví za klub („my").
+  **Šerm v tom příběhu schválně není:** Jakub vedl kroužek šermu a jezdil na
+  LARPy ještě před vznikem klubu, je to jiná linka — ne etapa růstu Yes&.
 - **Hero říká totéž co plakát: „Probuď se do jiné reality."** Je to narážka na
   Matrix — běžná realita je ta iluze, ze které se probouzíš. Proto se nesmí
   přepsat na „vystup z reality": to znamená únik, tedy opak, a pak si to
