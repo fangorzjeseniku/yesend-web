@@ -306,13 +306,17 @@
   </section>
 
   <!-- ============ 6. JAK VZNIKL KLUB (= O nás) ============ -->
-  <section id="o-nas">
+  <section>
     <div class="band band--tall" style="background-image:url('images/pas-klub.webp')" role="img"
          aria-label="Setkání členů fantasy klubu Yes&amp; v Jeseníku"></div>
 
     <div class="section" style="padding-top:var(--space-section)">
       <div class="wrap stack">
-        <h2 style="font-size:var(--fs-h2-sm)">Jak vznikl MTG a D&amp;D<br>fantasy klub v Jeseníku?</h2>
+        <!-- Kotva `o-nas` je na nadpisu, ne na `<section>`. Na sekci začíná
+             fotopás, takže proklik z navigace předtím skončil nad obrázkem
+             a nadpis nebyl vidět. Odsazení pod lepivou hlavičku řeší globální
+             pravidlo `[id] { scroll-margin-top: … }` v style.css. -->
+        <h2 id="o-nas" style="font-size:var(--fs-h2-sm)">Jak vznikl MTG a D&amp;D<br>fantasy klub v Jeseníku?</h2>
         <p class="lead italic" style="font-weight:500">aneb Mág, Mistr a Alchymista vejdou do baru, …</p>
         <p>Vrátil jsem se do Jeseníku a zjistil, že na fantasy tu není nic. Kroužky na sport, na hudbu, na tanec — ano. Na hraní ne.</p>
         <p>Když covid konečně pustil svět ze zámku, seděl jsem v čerstvě otevřeném Čajbaru Pangea a přemýšlel, kde vůbec začít. U vedlejšího stolu si dva kluci vytáhli z batohu balíčky Magicu. Dopil jsem a šel si to s nimi vyřídit.</p>
